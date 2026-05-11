@@ -30,19 +30,39 @@ print(str2.count("e"))
 
 #---------Conditional Statements
 #1. if-elif-else
-light =input("Enter the Color: ")
+# light =input("Enter the Color: ")
 
-if(light=="red"):
-    print("Stop")
-elif(light=="yellow"):
-    print("Ready")
+# if(light=="red"):
+#     print("Stop")
+# elif(light=="yellow"):
+#     print("Ready")
+# else:
+#     print("gooo")
+
+# print("End of Code")
+
+#Nesting loop
+
+#ODD EVEN Number find
+# User = int(input("Enter the number: "))
+
+# rem = User%2
+
+# if(rem ==0):
+#     print("EVEN")
+# else:
+#     print("ODD")
+
+#Greater Number Finder
+a =5
+b=10
+c=1
+
+if(a>=b and a>=c):
+    print("A is the Greater Number")
+elif(b>=a and b>=c):
+    print("B is the Greater Number")
 else:
-    print("gooo")
-
-print("End of Code")
-
-
-
-
+    print("C is the Greater Number")
 
 
