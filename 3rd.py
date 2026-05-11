@@ -46,3 +46,36 @@ print(list)
 list.pop(2) #Remove the value of index 2
 print(list)
 
+#List - Mutable -Can be Change when after needed 
+#Tuple - Immutable -cannot be change when needed after
+
+#-----------Tuples - lets us create immuatble sequences of values
+Tuple = (2,1,3,1)
+print(type(Tuple))
+print(Tuple[0])
+
+#Slicing in Tuple
+print(Tuple[1:3])
+print(Tuple[-3:-2])
+
+#Tuple Methods
+
+#Index Method - Return the index of the value
+print(Tuple.index(3));
+
+#Count Method - Returns the total Count of Values
+print(Tuple.count(2))
+
+#Create the list of movie and put them in the list 
+user1 = input("Enter the name of the movies :")
+user2 = input("Enter the name of the movies :")
+user3 = input("Enter the name of the movies :")
+list =[]
+
+list.append(user1)
+list.append(user2)
+list.append(user3)
+
+print(list)
+
+
