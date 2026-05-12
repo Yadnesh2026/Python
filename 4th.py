@@ -20,3 +20,30 @@ print(dict)
 null_Dict ={} 
 null_Dict["name"]="Vedant"
 print(null_Dict)
+
+#Nested Dictinory
+student={
+    "name":"Vedant",
+    "Subjects":{
+        "phy":97,
+        "chem":92,
+        "Bio":89
+    }
+}
+
+print(student);
+print(student["Subjects"]["phy"]) #Print in the Nested form 
+
+#---------------Dictonory Methods----------------
+
+#.keys() Method - Print the Key from the dictonory 
+print(student.keys());
+
+print(list(student.keys())) # TO Type cast them in list format
+print(len(student.keys()))
+
+#Values Method - Print all the values from the dictinory 
+print((student.values()))
+
+
+
