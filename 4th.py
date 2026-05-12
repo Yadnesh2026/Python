@@ -63,8 +63,30 @@ newDict = {"area":"Viman Nagar","Pin":412105} #Adding the new Dictinory
 student.update(newDict)
 print(student)
 
+#List and Dictinory are mutubles
 
-#Sets in Python - set is collection of the unordered items (Unique Order)
+#Sets in Python - set is collection of the unordered items (Unique Order) and ignores duplicate values 
+
+#Note - Sets does does only consist of unqique value 
+collection = {1,2,3,4,"order","type","type"}
+print(collection)
+print(type(collection))
+print(len(collection))
+
+collection2 = set() #To create empty SET
+print(type(collection2))
+
+#-------------SET Methods
+#In sets we cannot add list and Dictinory that are mutable becuse sets elemtn is mutable
+#set.add(el) - add the element
+collection2.add(1)
+collection2.add("Added new")
+collection2.add(("name","anisha"))
+print(collection2)
+
+#Set Remove
+collection2.remove(("name","anisha"))
+print(collection2)
 
 
 
