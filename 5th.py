@@ -23,3 +23,13 @@ idx =0
 while idx < len(nums):
     print(nums[idx])
     idx +=1
+
+#Qs5
+num2 = (1,4,9,16,25,36,49,64,81,100);
+i=0
+x=64
+
+while i < len(num2):
+    if(num2[i]== x):
+        print("Found",i)
+    i +=1
