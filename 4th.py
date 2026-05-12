@@ -88,5 +88,13 @@ print(collection2)
 collection2.remove(("name","anisha"))
 print(collection2)
 
+#Clear Method
+print(collection2.clear())
+
+collection2.clear()
+print(len(collection2))
+
+
+
 
 
