@@ -12,5 +12,11 @@ print(dict["name"]) #Can access the key:value from this
 
 dict["name"] = "Anisha" #Asign new value in the key
 dict["cgpa"]= 9.47
-dict["surname"]="vidulkar"
+dict["surname"]="vidulkar"#Assign the new value in DIct
 print(dict)
+
+
+#null Dict -Can add the value after making Dictinonary
+null_Dict ={} 
+null_Dict["name"]="Vedant"
+print(null_Dict)
