@@ -129,6 +129,20 @@ set3 = {"python","java","C++","python","javascript","java","python","java","C++"
 pair = len(set3)
 print(pair)
 
+#Example 3
+marks = {},
+
+x = int(input("Enter the marks of Phy:"))
+marks.update({"phy":x})
+
+x = int(input("Enter the marks of Chem:"))
+marks.update({"Chem":x})
+
+x = int(input("Enter the marks of Math:"))
+marks.update({"Math":x})
+
+print(marks)
+
 
 
 
