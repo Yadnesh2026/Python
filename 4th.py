@@ -130,7 +130,7 @@ pair = len(set3)
 print(pair)
 
 #Example 3
-marks = {},
+marks = {}
 
 x = int(input("Enter the marks of Phy:"))
 marks.update({"phy":x})
