@@ -7,5 +7,5 @@ dict={
     "subjects":["python","C","Java","C++"],
     "topics":("dict","Set")
 }
-
 print(dict)
+print(dict["name"]) #Can access the key:value from this 
