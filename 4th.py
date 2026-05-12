@@ -12,4 +12,5 @@ print(dict["name"]) #Can access the key:value from this
 
 dict["name"] = "Anisha" #Asign new value in the key
 dict["cgpa"]= 9.47
+dict["surname"]="vidulkar"
 print(dict)
