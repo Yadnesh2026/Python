@@ -52,4 +52,15 @@ print("list Items format :",list(student.items()))
 pairs = list(student.items()) #Print in specfic keyvalue in tuple format
 print(pairs[0])
 
+#.get Method - returns the key according to value 
+print("get value by key :",student.get("name"))
+
+#Update Method - Insert the new key:value pair
+student.update({"city":"Pune"})
+print(student)
+
+newDict = {"area":"Viman Nagar","Pin":412105}
+student.update(newDict)
+print(student)
+
 
