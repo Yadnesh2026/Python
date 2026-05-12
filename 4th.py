@@ -59,8 +59,12 @@ print("get value by key :",student.get("name"))
 student.update({"city":"Pune"})
 print(student)
 
-newDict = {"area":"Viman Nagar","Pin":412105}
+newDict = {"area":"Viman Nagar","Pin":412105} #Adding the new Dictinory 
 student.update(newDict)
 print(student)
+
+
+#Sets in Python - set is collection of the unordered items (Unique Order)
+
 
 
