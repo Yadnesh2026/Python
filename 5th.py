@@ -40,18 +40,23 @@ while number<=100:
 # while(j<=5):
 #     if(j ==3):
 #         j +=1
-#         continue
+#         continue #ski[]
 #     print(j)
 #     j +=1
 
 # #Qs6
-# num3 = (1,4,9,16,25,36,49,64,81,100);
-# a=0
-# x=25
+num3 = (1,4,9,16,25,36,49,64,81,100);
+a=0
+x=25
 
-# while a< len(num3):
-#     if(num3[a] == 25):
-#         print("Found",a)
-#     a +=1
+while a< len(num3):
+    if(num3[a] == 25):
+        print("Found",a)
+        break
+    else:
+        print("finding...")
+    a +=1
+
+
 
 
