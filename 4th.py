@@ -37,13 +37,19 @@ print(student["Subjects"]["phy"]) #Print in the Nested form
 #---------------Dictonory Methods----------------
 
 #.keys() Method - Print the Key from the dictonory 
-print(student.keys());
+print("In the Key Format :",student.keys());
 
 print(list(student.keys())) # TO Type cast them in list format
 print(len(student.keys()))
 
 #Values Method - Print all the values from the dictinory 
-print((student.values()))
+print(("In the Values Format :",student.values()))
 
+#.items Methods - return all key valye pairs as tuples
+print("In the Tuple Format :",student.items())
+print("list Items format :",list(student.items()))
+
+pairs = list(student.items()) #Print in specfic keyvalue in tuple format
+print(pairs[0])
 
 
