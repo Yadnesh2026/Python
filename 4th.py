@@ -98,15 +98,21 @@ print(len(collection2))
 print(collection)
 print(collection.pop())
 
+
+
 #Union Method - Combines Both sets value and return new
 set1 = {1,2,3}
 set2 = {3,4,5}
 
 print(set1.union(set2)) # return {1,2,3,4,5}
 
+
+
 #Intersection Method - Combines common values and return new
 print(set1.intersection(set2)) # return {3)
 
+
+#Example 1
 Dict2 = {
     "table":(
         "a piece of furtniure",
@@ -116,6 +122,17 @@ Dict2 = {
 }
 
 print(Dict2)
+
+#Example 2
+set3 = {"python","java","C++","python","javascript","java","python","java","C++","C"}
+
+pair = len(set3)
+print(pair)
+
+
+
+
+
 
 
 
