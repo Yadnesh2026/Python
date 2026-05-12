@@ -94,7 +94,21 @@ print(collection2.clear())
 collection2.clear()
 print(len(collection2))
 
+#Pop Method - Give Any Random value from the sets
 print(collection)
+print(collection.pop())
+
+#Union Method - Combines Both sets value and return new
+set1 = {1,2,3}
+set2 = {3,4,5}
+
+print(set1.union(set2)) # return {1,2,3,4,5}
+
+#Intersection Method - Combines common values and return new
+print(set1.intersection(set2)) # return {3}
+
+
+
 
 
 
