@@ -105,9 +105,17 @@ set2 = {3,4,5}
 print(set1.union(set2)) # return {1,2,3,4,5}
 
 #Intersection Method - Combines common values and return new
-print(set1.intersection(set2)) # return {3}
+print(set1.intersection(set2)) # return {3)
 
+Dict2 = {
+    "table":(
+        "a piece of furtniure",
+        "list o fatcs nad figures"
+    ),
+    "cat":"a small animal "
+}
 
+print(Dict2)
 
 
 
