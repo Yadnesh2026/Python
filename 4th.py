@@ -94,7 +94,7 @@ print(collection2.clear())
 collection2.clear()
 print(len(collection2))
 
-
+print(collection)
 
 
 
