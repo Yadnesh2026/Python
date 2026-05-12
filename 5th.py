@@ -32,4 +32,6 @@ x=64
 while i < len(num2):
     if(num2[i]== x):
         print("Found",i)
+    else:
+        print("finding")
     i +=1
