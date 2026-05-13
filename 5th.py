@@ -45,17 +45,23 @@ while number<=100:
 #     j +=1
 
 # #Qs6
-num3 = (1,4,9,16,25,36,49,64,81,100);
-a=0
-x=25
+# num3 = (1,4,9,16,25,36,49,64,81,100);
+# a=0
+# x=25
 
-while a< len(num3):
-    if(num3[a] == 25):
-        print("Found",a)
-        break
-    else:
-        print("finding...")
-    a +=1
+# while a< len(num3):
+#     if(num3[a] == 25):
+#         print("Found",a)
+#         break
+#     else:
+#         print("finding...")
+#     a +=1
+
+#For Loop in python
+list = [1,2,3]
+
+for el in list:
+    print(el)
 
 
 
