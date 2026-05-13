@@ -64,15 +64,25 @@ while number<=100:
 #     print(el)
 
 #Used with else
-vegitable = "ApnaCollege"
+# vegitable = "ApnaCollege"
 
-for vegi in vegitable:
-    if(vegi == "o"):
-        print("Found O")
+# for vegi in vegitable:
+#     if(vegi == "o"):
+#         print("Found O")
+#         break
+#     print(vegi)
+# else:
+#     print("END")
+
+list2 = (1,4,9,16,25,36,49,64,81,100)
+
+for num in list2:
+    if(num == 16):
+        print("Found 16")
         break
-    print(vegi)
-else:
-    print("END")
+    print(num)
+    
+
 
 
 
