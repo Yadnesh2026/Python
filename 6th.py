@@ -66,9 +66,28 @@
 # num(5)
 
 #Recursion and Factorial
-def rec(n):
-    if(n==1 or n==0):
-        return 1
-    return rec(n-1)*n
+# def rec(n):
+#     if(n==1 or n==0):
+#         return 1
+#     return rec(n-1)*n
 
-print(rec(5))
+# print(rec(5))
+
+#Qs1
+# def calsi(n):
+#     if(n ==0): #base Case
+#         return 0
+#     return calsi(n-1) +n
+
+# print(calsi(5))
+
+#Qs2
+list2 = ["anisha","vedant","Shourya"]
+def all(list,idx):
+    # if(list ==3):
+    #     return
+    for i in list:
+        print(i)
+        idx +=1
+ 
+all(list2,0)
