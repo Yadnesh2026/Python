@@ -102,22 +102,36 @@ while number<=100:
 #Pass is known for adding code after words like acts as a placeholder
 
 #Qs1
-n=5
+# n=5
 
-sum=0
-for i in range(n+1):
-    sum += i
+# sum=0
+# for i in range(n+1):
+#     sum += i
 
-print("total sum",sum)
+# print("total sum",sum)
 
 #Qs2
-n=7
-sum=0
-i=1
+# n=10
+# sum=0
+# i=1
 
-while i<=n:
-    print(sum)
-    sum +=1 
+# while i<=n:
+#     sum +=i
+#     i+=1
+
+# print("tota sum ",sum)
+
+
+
+#Qs3 - factorial
+n=5
+fact =1
+
+for i in range(1,n+1):
+    fact *=i
+
+print("factorial :",fact)
+
 
 
 
