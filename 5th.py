@@ -58,15 +58,18 @@ while number<=100:
 #     a +=1
 
 #For Loop in python - for triversers
-list = [1,2,3]
+# list = [1,2,3]
 
-for el in list:
-    print(el)
+# for el in list:
+#     print(el)
 
 #Used with else
-vegitable = ["potato","chucumbar","cabbage"]
+vegitable = "ApnaCollege"
 
 for vegi in vegitable:
+    if(vegi == "o"):
+        print("Found O")
+        break
     print(vegi)
 else:
     print("END")
