@@ -74,14 +74,42 @@ while number<=100:
 # else:
 #     print("END")
 
-list2 = (1,4,9,16,25,36,49,64,81,100)
+# list2 = (1,4,9,16,25,36,49,64,81,100)
 
-for num in list2:
-    if(num == 16):
-        print("Found 16")
-        break
-    print(num)
-    
+# for num in list2:
+#     if(num == 16):
+#         print("Found 16")
+#         break
+#     print(num)
+
+
+#Range funcation - Returns a sequence of numbers, Starting from 0 by default and increment by 1(By deafult)
+#range(start?, stop, step?) ? - optional
+#stop is not printed 
+
+# for i in range(1,100,2):
+#     print(i)
+
+# n=5
+# for i in range(1,11):
+#     print(n*i)
+
+#Pass statment - To pass the null statment that does nothing
+# for i in range(5):
+#     pass
+
+# print("After the pass")
+#Pass is known for adding code after words like acts as a placeholder
+
+#Qs1
+n=5
+
+sum=0
+for i in range(n+1):
+    sum += i
+
+print("total sum",sum)
+
 
 
 
