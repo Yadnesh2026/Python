@@ -42,6 +42,20 @@
 # f.close()
 
 #w+ mode - wrte new text and delete last text in w mode
-f = open("demo.txt","w+")
-f.write("neww added")
-f.close()
+# f = open("demo.txt","w+")
+# f.write("neww added")
+# f.close()
+
+#with syntax - Change the name to another 
+with open("demo.txt","r") as f:
+    data =f.read()
+    print(data) #do not use close syntax here
+
+with open("demo.txt","w") as f:
+    f.write("New data ")
+
+#Deleteing a file using os modules
+import os
+
+os.remove("demo.txt") #Delete the file
+    
