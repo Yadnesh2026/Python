@@ -11,6 +11,10 @@
 # t - for open text file, 
 # + - open a disk file for updating(reading and writing)
 
+#r+ - read + overwrite the data, pointer start (No truncate)
+#w+ - read + overwrite (truncate) (New data old data is delete )
+#a+ - read + append, pointer end (No truncate)
+
 # f= open("demo.txt","r") #read mode
 
 # data = f.read() # To see the file data
