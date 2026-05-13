@@ -32,9 +32,12 @@
 # f.close()
 
 #r+ mode - over write in the start of file
-f = open("demo.txt","r+")
-f.write("abc;kl;")
-print(f.read())
+# f = open("demo.txt","r+")
+# f.write("abc;kl;")
+# print(f.read())
+# f.close()
+
+#w+ mode - wrte new text and delete last text in w mode
+f = open("demo.txt","w+")
+f.write("neww added")
 f.close()
-
-
