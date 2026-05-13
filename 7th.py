@@ -1,2 +1,19 @@
 #File I/O - Python can be used to perform operations on a file(read and write data)
 
+#Open File Operations
+# f = open("filename","mode") #mode - read mode, write mode , deafult parametr is read
+
+# r - readfile ,
+# w - open for writing again,
+# x - new file, 
+# a - append the data,
+# b - binary mode, 
+# t - for open text file, 
+# + - open a disk file for updating(reading and writing)
+
+f= open("demo.txt","r") #read mode
+
+data = f.read() # To see the file data
+print(data)
+print(type(data))
+f.close() #Close the file
