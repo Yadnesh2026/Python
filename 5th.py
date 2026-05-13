@@ -57,16 +57,19 @@ while number<=100:
 #         print("finding...")
 #     a +=1
 
-#For Loop in python
+#For Loop in python - for triversers
 list = [1,2,3]
 
 for el in list:
     print(el)
 
+#Used with else
 vegitable = ["potato","chucumbar","cabbage"]
 
 for vegi in vegitable:
     print(vegi)
+else:
+    print("END")
 
 
 
