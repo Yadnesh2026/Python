@@ -11,23 +11,37 @@
 
 # print(avg(6,5,1))
 
-#Qs1 print the len of a list 
-cities =["delhi","gugaon","mumbai","chennai"]
+# #Qs1 print the len of a list 
+# cities =["delhi","gugaon","mumbai","chennai"]
 
-def list(cities2):
-    sum =len(cities)
-    return sum
+# def list(cities2):
+#     sum =len(cities)
+#     return sum
 
-print(list(cities))
+# print(list(cities))
 
-#Qs2  Print them all in One line
-heros = ["Spiderman","captain America","Iron Man","Wizard"]
+# #Qs2  Print them all in One line
+# heros = ["Spiderman","captain America","Iron Man","Wizard"]
 
-def print2(h):
-    for i in h:
-        print(i,end=" ")  #IMP Note - end=" " hleps to print the list in one line 
-
-
-print(print2(heros))
+# def print2(h):
+#     for i in h:
+#         print(i,end=" ")  #IMP Note - end=" " hleps to print the list in one line 
 
 
+# print(print2(heros))
+
+#Qs3 - Factorial of n
+def factorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *=i
+    print(fact)
+
+print(factorial(8))
+
+#Qs4 - Convert USD TO INR
+def converter(usd_value):
+    inr_value = usd_value * 83
+    print(usd_value,"USD =", inr_value)
+
+converter(9)
