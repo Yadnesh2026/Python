@@ -56,11 +56,19 @@
 # check(user);
 
 #Recursion - When a function calls itself repeatedly 
-def num(n):
-    if(n == 0): #In recusrion this is called as base case
-        return
-    print(n)
-    num(n-1)
-    print("END") #Call stack Example
+# def num(n):
+#     if(n == 0): #In recusrion this is called as base case
+#         return
+#     print(n)
+#     num(n-1)
+#     print("END") #Call stack Example
 
-num(5)
+# num(5)
+
+#Recursion and Factorial
+def rec(n):
+    if(n==1 or n==0):
+        return 1
+    return rec(n-1)*n
+
+print(rec(5))
