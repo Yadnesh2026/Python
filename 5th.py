@@ -63,6 +63,11 @@ list = [1,2,3]
 for el in list:
     print(el)
 
+vegitable = ["potato","chucumbar","cabbage"]
+
+for vegi in vegitable:
+    print(vegi)
+
 
 
 
