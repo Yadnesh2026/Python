@@ -77,5 +77,14 @@ class Student5:
 s5 =Student5()
 s5.college5()
 
+#IMP Parts of OOPs
+#1. Abstraction - hiding the implenebtion details of a class and only shoing the essential features to the use.
+#Example - TO show only main component of class
+
+#2.Encapsulation - Wrapping data and functions into a single unit(objects).
+#Example - To store all the values and function in one capsule (Class)
+
+
+
 
         
