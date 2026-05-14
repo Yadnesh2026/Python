@@ -5,5 +5,4 @@ class Student: #creating class
     name="karan"
 
 s1 =Student() #Object (insatnce)
-print(s1)
-
+print(s1.name)
