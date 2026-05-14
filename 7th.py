@@ -60,3 +60,23 @@ import os
 # os.remove("demo.txt") #Delete the file
 
 #Example 1
+# with open("practice.txt","w") as f:
+#     f.write("Hi everyone\n ")
+#     f.write("We are leanring File I/O\n")
+#     f.write("using Java \n")
+#     f.write("I like programming in Java")
+
+#Example2 - Change the above data word from java to python
+with open("practice.txt","r") as f:
+    data = f.read()
+
+    replace = data.replace("Java","python") #Replace is an method of string
+    print(replace)
+
+with open("practice.txt","w") as f:
+    f.write(replace)
+
+
+
+
+    
