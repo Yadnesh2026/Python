@@ -77,9 +77,9 @@ with open("practice.txt","w") as f:
     f.write(replace)
 
 #Example 3  - search for Leanring word here
-def checkline():
-    
-
+with open("practice.txt","r") as f:
+    data = f.read()
+    print(data)
 
 
 
