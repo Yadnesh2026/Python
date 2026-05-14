@@ -82,5 +82,4 @@ with open("practice.txt","r") as f:
     print(data)
 
 
-
     
