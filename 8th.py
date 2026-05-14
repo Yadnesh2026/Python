@@ -35,7 +35,7 @@ s2 = Student2("vedant") #Data Stored in object is known as attribute
 
 #Methods -  Methods are functions that belong to objects 
 class Student3:
-    def __init__(self,name,marks):
+    def __init__(self,name,marks): #Constructor of the program
         self.name = name
         self.marks = marks
         print("this are the name of student",self.name)
@@ -47,11 +47,27 @@ class Student3:
     def college2(self):
         print("The are marks are total",self.marks)
 
-        
+
 s3 = Student3("Vedant",98)
 s3.college()
 s3.college2()
-        
+
+#Example 3 -  Marks of student and avg of them
+class Student4:
+    def __init__(self,name,phy,chem,bio):
+        self.name = name
+        self.phy = phy
+        self.chem = chem
+        self.bio = bio
+
+    def Avg(self):
+        avg = (self.phy + self.chem + self.bio) /3
+        print("The avg  is",avg)
+
+s4 = Student4("Karan",98,86,80)
+s4.Avg();
+
+#Static Methods - Method that dont use self parameters 
 
 
 
