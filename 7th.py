@@ -76,6 +76,9 @@ with open("practice.txt","r") as f:
 with open("practice.txt","w") as f:
     f.write(replace)
 
+#Example 3  - search for Leanring word here
+w
+
 
 
 
