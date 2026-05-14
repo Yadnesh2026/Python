@@ -95,7 +95,7 @@ class Account:
         print("The amount is debited",amount,"Balance is",self.balance)
 
     def credit(self,amount2):
-        self.acc += amount2
+        self.balance += amount2
         print("The Total Amount are ",amount2,"balance is",self.balance)
 
 
