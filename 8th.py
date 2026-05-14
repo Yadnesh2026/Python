@@ -84,7 +84,22 @@ s5.college5()
 #2.Encapsulation - Wrapping data and functions into a single unit(objects).
 #Example - To store all the values and function in one capsule (Class)
 
+#Qs2
+class Account:
+    def __init__(self,bal,acc):
+        self.balance = bal
+        self.acc = acc
+
+    def debit(self,amount):
+        self.balance -= amount
+        print("The amount is debited",amount,"Balance is",self.balance)
+
+    def credit(self,amount2):
+        self.acc += amount2
+        print("The Total Amount are ",amount2,"balance is",self.balance)
 
 
-
+atm = Account(500, 5612134)
+atm.debit(200)
+atm.credit(300)
         
