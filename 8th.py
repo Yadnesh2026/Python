@@ -6,3 +6,11 @@ class Student: #creating class
 
 s1 =Student() #Object (insatnce)
 print(s1.name)
+
+#Car Example
+class Cars():
+    color = "Blue"
+    brand = "BMW"
+
+car1 = Cars()
+print(car1.brand)
