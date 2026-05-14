@@ -14,3 +14,13 @@ class Cars():
 
 car1 = Cars()
 print(car1.brand)
+
+# Init Function - All the functio have function called _init_()_ function
+class Student2:
+    def __init__(self,fullname):
+        self.name = fullname
+        print("This is the full name",self.name)
+
+s1 =Student2("karan")
+
+        
