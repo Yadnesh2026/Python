@@ -67,10 +67,15 @@ class Student4:
 s4 = Student4("Karan",98,86,80)
 s4.Avg();
 
-#Static Methods - Method that dont use self parameters 
+#Static Methods - Method that dont use self parameters (work at the class level)
+class Student5:
 
+    @staticmethod #Also Known as Decorater
+    def college5():
+        print("This is Static Method")
 
-
+s5 =Student5()
+s5.college5()
 
 
         
