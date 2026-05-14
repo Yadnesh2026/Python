@@ -67,16 +67,16 @@ import os
 #     f.write("I like programming in Java")
 
 #Example2 - Change the above data word from java to python
-with open("practice.txt","r") as f:
-    data = f.read()
+# with open("practice.txt","r") as f:
+#     data = f.read()
 
-    replace = data.replace("Java","python") #Replace is an method of string
-    print(replace)
+#     replace = data.replace("Java","python") #Replace is an method of string
+#     print(replace)
 
-with open("practice.txt","w") as f:
-    f.write(replace)
+# with open("practice.txt","w") as f:
+#     f.write(replace)
 
-#Example 3  - search for Leanring word here
+#Example 3  - print the count number from file
 with open("practice.txt","r") as f:
     data = f.read()
     print(data)
