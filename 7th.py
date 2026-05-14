@@ -47,15 +47,16 @@
 # f.close()
 
 #with syntax - Change the name to another 
-with open("demo.txt","r") as f:
-    data =f.read()
-    print(data) #do not use close syntax here
+# with open("demo.txt","r") as f:
+#     data =f.read()
+#     print(data) #do not use close syntax here
 
-with open("demo.txt","w") as f:
-    f.write("New data ")
+# with open("demo.txt","w") as f:
+#     f.write("New data ")
 
 #Deleteing a file using os modules
 import os
 
-os.remove("demo.txt") #Delete the file
-    
+# os.remove("demo.txt") #Delete the file
+
+#Example 1
