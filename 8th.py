@@ -278,6 +278,26 @@ num2 = Complex(2, 3)
 num3  = num1 + num2
 num3.show()
 
+#Qs1
+class Cricle:
+    def __init__(self,radius):
+        self.radius = radius
+    
+    #1 Area of Cricle
+    def Area(self):
+        calsi = 3.14 *(self.radius * self.radius)
+        print("The Area of Cricle is",calsi)
+
+    #Parimeter of cricle
+    def Parimeter(self):
+        calsi2 = (2*3.14*self.radius)
+        print("The parimeter of the Cricle is",calsi2)
+
+
+cric = Cricle(6)
+cric.Area()
+cric.Parimeter()
+        
 
 
 
