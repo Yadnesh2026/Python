@@ -123,7 +123,28 @@ class perosn:
     def welcome(self):
         self.__hello()
 
-p = perosn()
-print(p.welcome())
+# p = perosn()
+# print(p.welcome())
 
 #Inheritance - When one class(child/derived) dervies the properties and methods of another class(parent, base)
+class Car:
+    color = "Blue"
+    @staticmethod
+    def start():
+        print("Car Started")
+
+    @staticmethod
+    def stop():
+        print("Car stopped")
+
+class Toyota(Car):
+    def __init__(self,name):
+        self.name = name
+
+car1 = Toyota("Glanza")
+print(car1.color)
+
+#Types of Inheritance
+
+        
+    
