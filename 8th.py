@@ -293,11 +293,56 @@ class Cricle:
         calsi2 = (2*3.14*self.radius)
         print("The parimeter of the Cricle is",calsi2)
 
-
 cric = Cricle(6)
 cric.Area()
 cric.Parimeter()
+
+#Qs2
+class Employee:
+
+    def __init__(self,role,dept,salary):
+        self.role = role
+        self.dept = dept
+        self.salary = salary
+
+    def Details(self):
+        print("This is Role",self.role)
+        print("This is dept",self.dept)
+        print("This is salary",self.salary)
         
+class Engineer(Employee):
+
+    def __init__(self,name,age,place):
+        self.name = name
+        self.age = age
+        self.place = place
+
+        super().__init__("Engineer","Computer",45000)
+
+
+
+cd = Engineer("Vedant","22","Pune")
+
+print(cd.name)
+cd.Details()
+
+#Qs3
+class Order:
+    def __init__(self,item,price):
+        self.item = item
+        self.price = price
+
+    def __gt__(self,ord2): #Dundur functions
+        return self.price > ord2.price
+    
+
+ord1 = Order("Chips",20)
+ord2 = Order("Onion",15)
+
+print(ord1>ord2)
+
+    
+
 
 
 
