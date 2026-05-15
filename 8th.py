@@ -126,8 +126,10 @@ class perosn:
 # p = perosn()
 # print(p.welcome())
 
+
+
 #Inheritance - When one class(child/derived) dervies the properties and methods of another class(parent, base)
-class Car:
+class Car:   #Parent Class
     color = "Blue"
     @staticmethod
     def start():
@@ -137,7 +139,7 @@ class Car:
     def stop():
         print("Car stopped")
 
-class Toyota(Car):
+class Toyota(Car): #Child Class
     def __init__(self,name):
         self.name = name
 
@@ -145,6 +147,54 @@ car1 = Toyota("Glanza")
 print(car1.color)
 
 #Types of Inheritance
+
+# 1. Single Inheritance
+#  Base Class (Parent) -> Derived (Child)
+
+#2. Multi-level Inheritance
+# Base Class(Parent) -> Dervied (Child) -> Derived (Child) Also conisst of base class property
+
+class Cars2: #parent 
+    @staticmethod
+    def on():
+        print("the engine is on")
+
+    @staticmethod
+    def off():
+        print("the engine is off")
+
+class Suzuki(Cars2): #Child 1
+    def __init__(self,name):
+        self.name = name
+
+
+class factory(Suzuki): #Child 2 Can also take info frm parent
+    def __init__(self,model2):
+        self.model2 = model2
+        print("Model of this car is",model2)
+        
+
+
+c2 = factory("X%$")
+c2.on() #Directlt call the upper most call (Parent)
+
+#3. Multiple Inheritance 
+# (Base Class)Parent + (Base Class) Parent -> Derived (Child)
+
+class A:
+    varA = "welcome to class A"
+
+class B:
+    varB = "welcome to Class B"
+    
+class C(A,B):
+    varC = "welcome to Class C"
+
+c1 = C()
+
+print(c1.varC)
+print(c1.varB)
+
 
         
     
