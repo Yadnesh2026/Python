@@ -256,10 +256,27 @@ print(result.percenatge)
 
 #4.Polymorphism - Operator Overloading (Ekch ghosti che khup form hh)
 #When the same operator is allowed to have different meaning according to the context
+class Complex:
+
+    def __init__(self, real, img):
+        self.real = real
+        self.img = img
+
+    def show(self):
+        print("The number is", self.real, "+", self.img, "i")
+
+    def __add__(self, num):
+        num1 = self.real + num.real
+        num2 = self.img + num.img
+
+        return Complex(num1, num2)
 
 
+num1 = Complex(1, 5)
+num2 = Complex(2, 3)
 
-
+num3  = num1 + num2
+num3.show()
 
 
 
