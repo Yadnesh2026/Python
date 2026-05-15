@@ -102,4 +102,15 @@ class Account:
 atm = Account(500, 5612134)
 atm.debit(200)
 atm.credit(300)
+
+#del keywords - Used to delete object propertie sor object itself
+class Student6:
+    def __init__(self,name):
+        self.name = name
+
+
+s6 = Student6("Vedant")
+
+del s6.name #To delete the function
+print(s6.name)
         
