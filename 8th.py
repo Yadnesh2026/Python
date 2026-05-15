@@ -196,5 +196,38 @@ print(c1.varC)
 print(c1.varB)
 
 
+#Super Method - super() is used to access methods of the parent class
+class Car3:
+    def __init__(self,type):
+        self.type = type
+
+    @staticmethod
+    def on2():
+        print("Car started")
+
+    @staticmethod
+    def off2():
+        print("Car Stopped")
+
+class BMW(Car3):
+    def __init__(self,name,type):
+        self.name = name
+        super().__init__(type) #inheritat the attribute of main class there is why super is used
+        super().off2() 
+
+
+c4 = BMW("X5","320d")
+print(c4.name)
+
+#Different types of methods in python OOPs
+#1. Static Method
+#2. Class Method - (cls)
+#3. insatnce method (self,name)
+
+#Class Method - A Class method is bound to the class & recives the class as an implicit first argument
+
+
+
+
         
     
