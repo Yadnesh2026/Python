@@ -219,7 +219,8 @@ class BMW(Car3):
 c4 = BMW("X5","320d")
 print(c4.name)
 
-#Different types of methods in python OOPs
+
+#Different types of methods in python OOPs - IMPORTANT ------------------------------
 #1. Static Method
 #2. Class Method - (cls)
 #3. insatnce method (self,name)
@@ -232,8 +233,13 @@ class Person2:
     def changeName(cls,name):
         cls.name = name
 
-p1 = Person2()
-p1.changeName("harshsa")
+p2 = Person2()
+p2.changeName("dsfa")
+print(p2.name)
+
+
+
+
 
 
 
