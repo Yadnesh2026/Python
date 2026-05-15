@@ -237,6 +237,23 @@ p2 = Person2()
 p2.changeName("dsfa")
 print(p2.name)
 
+#Property - we use @property on any method in the class to sued the method as property
+class result:
+    def __init__(self,phy,chem,math):
+        self.phy = phy
+        self.chem = chem
+        self.math = math
+    
+    @property #property method - convert this to an attribute 
+    def percenatge(self):
+        return ((self.phy + self.chem + self.math)/3)
+    
+
+result = result(95,78,70)
+print(result.percenatge)
+
+
+
 
 
 
