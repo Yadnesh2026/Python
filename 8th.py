@@ -110,7 +110,7 @@ class Student6:
 
 
 s6 = Student6("Vedant")
-
 del s6.name #To delete the function
 print(s6.name)
-        
+
+#Private(like) attributes and methods 
