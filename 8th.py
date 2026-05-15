@@ -225,6 +225,15 @@ print(c4.name)
 #3. insatnce method (self,name)
 
 #Class Method - A Class method is bound to the class & recives the class as an implicit first argument
+class Person2:
+    name = "vedant"
+
+    @classmethod
+    def changeName(cls,name):
+        cls.name = name
+
+p1 = Person2()
+p1.changeName("harshsa")
 
 
 
