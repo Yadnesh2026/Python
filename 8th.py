@@ -111,6 +111,19 @@ class Student6:
 
 s6 = Student6("Vedant")
 del s6.name #To delete the function
-print(s6.name)
+# print(s6.name)
 
-#Private(like) attributes and methods 
+#Private(like) attributes and methods - which can be used within the class
+class perosn:
+    __name = "Vedant" #Make Priavte with double underscore to attribute
+
+    def __hello(self): #make private with methods 
+        print("This is the hello")
+
+    def welcome(self):
+        self.__hello()
+
+p = perosn()
+print(p.welcome())
+
+#Inheritance - When one class(child/derived) dervies the properties and methods of another class(parent, base)
