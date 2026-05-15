@@ -237,7 +237,7 @@ p2 = Person2()
 p2.changeName("dsfa")
 print(p2.name)
 
-#Property - we use @property on any method in the class to sued the method as property
+#Property Decoration - we use @property on any method in the class to sued the method as property
 class result:
     def __init__(self,phy,chem,math):
         self.phy = phy
@@ -248,9 +248,15 @@ class result:
     def percenatge(self):
         return ((self.phy + self.chem + self.math)/3)
     
-
 result = result(95,78,70)
 print(result.percenatge)
+
+#getter and setter decorater learn it 
+
+
+#4.Polymorphism - Operator Overloading (Ekch ghosti che khup form hh)
+#When the same operator is allowed to have different meaning according to the context
+
 
 
 
