@@ -160,4 +160,29 @@ class Book:
         self.author = author
         self.price = price
 
-    
+    def Discount(self, percent):
+
+        discount_amount = self.price * percent / 100
+        self.price = self.price - discount_amount
+        print("New Price:", self.price)
+
+
+b= Book("The rsing start","vedant",900)
+print(b.Discount(10))
+
+#ex11
+class Employee:
+    def __init__(self,name,salary):
+        self.name = name
+        self.salary = salary
+
+
+class Manager(Employee):
+    def __init__(self,dept, name, salary):
+        super().__init__(name, salary)
+        self.dept = dept
+
+m = Manager("engineer","vedant",45000)
+print(m.name)
+print(m.salary)
+
