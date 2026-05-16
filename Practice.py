@@ -137,8 +137,27 @@ print(t.name)
 print(t.age)
 print(t.subject)
 
+#Ex8
+class ATM:
+    def __init__(self,pin):
+        self.__pin = pin
+
+    def changePin(self,newPin):
+        self.__pin = newPin
+
+    def showPin(self):
+        print("This is the PIN",self.__pin)
+
+a = ATM(5462)
+a.changePin(8457)
+a.showPin()
 
 
+#Ex10
+class Book:
+    def __init__(self,title,author,price):
+        self.title = title
+        self.author = author
+        self.price = price
 
-        
-
+    
