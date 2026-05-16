@@ -214,7 +214,18 @@ s2 = StringJoin("join")
 print(s+s2)
 
 #Marks
+class Marks:
+    def __init__(self,num1):
+        self.num1 = num1
 
+    def __add__(self, num2):
+        return self.num1 + num2.num1
+    
+
+m = Marks(52)
+m2 = Marks(52)
+
+print(m+m2)
 
 
 
