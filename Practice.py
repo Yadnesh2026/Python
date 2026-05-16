@@ -105,6 +105,23 @@ a.eat()
 a.sleep()
 a.bark()
 
+#Ex7
+class Vehicle():
+    def start(self):
+        print("the Engine is started")
+
+    def stop(self):
+        print("the engine is stopped")
+    
+class Bike(Vehicle):
+    def bikeName(self):
+        print("this is bikename ")
+
+
+b = Bike()
+b.start()
+b.stop()
+
 
 
         
