@@ -88,6 +88,22 @@ m = Mobile(100,"off")
 m.switchOn()
 m.switchOff()
 
+#Ex6
+class Animal:
+    def eat(self):
+        print("He is eating")
+
+    def sleep(self):
+        print("He is sleeping")
+
+class Dog(Animal):
+    def bark(self):
+        print("DOg is Braking")
+
+a = Dog()
+a.eat()
+a.sleep()
+a.bark()
 
 
 
