@@ -117,10 +117,26 @@ class Bike(Vehicle):
     def bikeName(self):
         print("this is bikename ")
 
-
 b = Bike()
 b.start()
 b.stop()
+
+#Ex7
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+class Teacher(Person):
+    def __init__(self,subject,name,age):
+        self.subject = subject
+        super().__init__(name,age)
+
+t = Teacher("math","vedant",22)
+print(t.name)
+print(t.age)
+print(t.subject)
+
 
 
 
