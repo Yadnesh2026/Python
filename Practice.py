@@ -198,6 +198,31 @@ v1 = Vector(10)
 v2 = Vector(20)
 print(v1+v2)
 
+#String Joining
+class StringJoin:
+    def __init__(self,str1):
+        self.str1 = str1
+
+
+    def __add__(self,str2):
+        return self.str1 + str2.str1
+    
+
+s = StringJoin("happy")
+s2 = StringJoin("join")
+
+print(s+s2)
+
+#Marks
+
+
+
+
+
+
+
+
+
 
 
 
