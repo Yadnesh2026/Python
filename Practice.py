@@ -196,5 +196,10 @@ class Vector:
 
 v1 = Vector(10)
 v2 = Vector(20)
-
 print(v1+v2)
+
+
+
+
+
+
