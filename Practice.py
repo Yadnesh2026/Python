@@ -186,3 +186,15 @@ m = Manager("engineer","vedant",45000)
 print(m.name)
 print(m.salary)
 
+#Ex5
+class Vector:
+    def __init__(self,num):
+        self.num = num
+
+    def __add__(self,num2):
+        return self.num + num2.num
+
+v1 = Vector(10)
+v2 = Vector(20)
+
+print(v1+v2)
